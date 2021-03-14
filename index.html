@@ -1,0 +1,25 @@
+<!DocumentType html>
+<html>
+ <head>
+  <title>Let's play</title>
+  <meta charset="utf-8">
+ </head>
+ <body>
+    <div class="container">
+     <h1>
+         HERE WE GO
+     </h1>
+     <ol class="list-group">
+         <li>first click</li>
+         <li>second click</li>
+         <li>third click</li>
+         </ol>
+         
+    </div>
+    <script>const ol=document.querySelector('ol');
+        ol.addEventListener('click',(e)=> e.target.style.color='#' + (Math.random().toString(16)).slice(2,8));
+    </script>  
+ </body>
+ 
+
+</html>
